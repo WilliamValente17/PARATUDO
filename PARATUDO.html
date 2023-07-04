@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Felicidades!</title>
+  <style>
+    body {
+      background-color: #f9f9f9;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 20px;
+      animation: fireworks 10s infinite;
+      background-image: url('https://media.tenor.com/O_glutNXsvoAAAAC/fireworks-explosions.gif');
+      background-size: cover;
+    }
+
+    @keyframes fireworks {
+      0% { background-position: 0 0; }
+      100% { background-position: 100% 100%; }
+    }
+
+    h1 {
+      background: linear-gradient(to right, #ff0000, #ff8000, #ffff00, #80ff00, #00ff00, #00ff80, #00ffff, #0080ff, #0000ff, #8000ff, #ff00ff, #ff0080);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-size: 32px;
+      margin-top: 30px;
+    }
+
+    .gif-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 20px;
+    }
+
+    .gif-item {
+      width: calc(33.33% - 20px);
+      margin: 10px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+  </style>
+</head>
+<body>
+  <h1>Felicidades, Paulo Cezar e Thales Fernandes!!!</h1>
+
+  <div class="gif-container">
+    <div class="gif-item">
+      <img src="https://media.tenor.com/dNZx6ECh6h4AAAAC/clapping-awesome.gif" alt="Festa 1">
+    </div>
+    <div class="gif-item">
+      <img src="https://media.tenor.com/2pveRaEwtoMAAAAC/congratulations-well-done.gif" alt="Festa 2">
+    </div>
+    <div class="gif-item">
+      <img src="https://media.tenor.com/Q0j8Cn3wGJUAAAAC/happy-bday-celebrate.gif" alt="Felicidades">
+    </div>
+    <div class="gif-item">
+      <img src="https://media.tenor.com/WyJtCMu-5FcAAAAC/congratulations-clapping.gif" alt="Gif 3">
+    </div>
+    <div class="gif-item">
+      <img src="https://media.tenor.com/whjcR9BnKHYAAAAC/obama-birthday.gif" alt="Gif 4">
+    </div>
+    <div class="gif-item">
+      <img src="https://media.tenor.com/mU6C8c8tmikAAAAC/congratulations.gif" alt="Gif 5">
+    </div>
+  </div>
+</body>
+</html>
